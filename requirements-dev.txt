@@ -1,0 +1,9 @@
+-r requirements.txt
+codecov
+django>=1.11,<2.0
+flake8
+pytest
+pytest-cov
+pytest-django
+twine
+wheel

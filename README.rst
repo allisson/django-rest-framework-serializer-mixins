@@ -26,8 +26,8 @@ How to install
 
     pip install djangorestframework-serializer-mixins
 
-How to use
-----------
+How to use DynamicFieldsMixin
+-----------------------------
 
 Assume you have a Post model:
 

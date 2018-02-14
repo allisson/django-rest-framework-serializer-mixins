@@ -10,7 +10,7 @@ django-rest-framework-serializer-mixins
 .. image:: https://img.shields.io/pypi/v/djangorestframework-serializer-mixins.svg
         :target: https://pypi.python.org/pypi/djangorestframework-serializer-mixins
 
-.. image:: https://img.shields.io/github/license/allisson/djangorestframework-serializer-mixins.svg
+.. image:: https://img.shields.io/github/license/allisson/django-rest-framework-serializer-mixins.svg
         :target: https://pypi.python.org/pypi/djangorestframework-serializer-mixins
 
 .. image:: https://img.shields.io/pypi/pyversions/djangorestframework-serializer-mixins.svg

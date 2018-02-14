@@ -1,4 +1,4 @@
-class DynamicFieldsMixin:
+class DynamicFieldsMixin(object):
     def __init__(self, *args, **kwargs):
         fields = kwargs.pop('fields', None)
         read_only_fields = kwargs.pop('read_only_fields', None)

@@ -89,7 +89,6 @@ Now, you can define fields and read_only_field like this:
     >>> from testapp.serializers import DynamicPostSerializer
     >>> user = User.objects.create_user('user', 'user@email.com', '123456')
     >>> post = Post.objects.create(user=user, title='My Title', body='My Body')
-    >>> data = DynamicPostSerializer(post) # return fields and read_only_fields from Meta
     >>> serializer = DynamicPostSerializer(post) # return fields and read_only_fields from Meta
     >>> serializer.data
     {'body': 'My Body', 'created_at': '2018-02-14T14:15:29.772209Z', 'id': 1, 'title': 'My Title', 'updated_at': '2018-02-14T14:15:29.772312Z', 'user': 1}
